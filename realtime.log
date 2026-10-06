@@ -1,0 +1,121 @@
+2026-10-05 11:29:43.001 | INFO | app.file_log_collector:setup_loguru_file_output:72 - 文件日志收集器已启动
+2026-10-05 11:29:43.003 | INFO | __main__:main:764 - 文件日志收集器已启动，开始收集实时日志
+2026-10-05 11:29:43.004 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT id, value FROM cookies
+2026-10-05 11:29:43.005 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT cookie_id, keyword, reply FROM keywords
+2026-10-05 11:29:43.006 | INFO | app.cookie_manager:_load_from_db:42 - 从数据库加载了 0 个Cookie、0 组关键字、0 个状态记录和 0 个自动确认设置
+2026-10-05 11:29:43.028 | INFO | __main__:_start_api_server:714 - 启动Web服务器: http://0.0.0.0:8080
+2026-10-05 11:29:43.062 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_enabled']
+2026-10-05 11:29:43.068 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_interval']
+2026-10-05 11:29:43.071 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_keep']
+2026-10-05 11:29:43.181 | INFO | utils.db_backup:create_backup:79 - 数据库备份完成: data\xianyu_data_backup_20261005_112943.db (0.27 MB)
+2026-10-05 11:29:46.898 | INFO | utils.xianyu_utils:<module>:25 - 可用的JavaScript运行时: <module 'execjs.runtime_names' from 'C:\\Users\\dfsy\\AppData\\Roaming\\Python\\Python314\\site-packages\\execjs\\runtime_names.py'>
+2026-10-05 11:29:46.898 | INFO | utils.xianyu_utils:<module>:29 - 当前JavaScript运行时: Node.js (V8)
+2026-10-05 11:29:46.915 | INFO | utils.xianyu_utils:<module>:32 - JavaScript文件加载成功
+2026-10-05 11:29:46.938 | INFO | utils.image_utils:_ensure_upload_dir:30 - 图片上传目录已准备: static/uploads/images
+2026-10-05 11:29:47.326 | INFO | app.reply_server:<module>:333 - ✅ 已注册刮刮乐远程控制路由: /api/captcha
+2026-10-05 11:29:47.341 | INFO | app.reply_server:<module>:338 - 已注册发货拦截规则路由
+2026-10-05 11:29:47.341 | INFO | app.reply_server:<module>:345 - Web服务器启动，文件日志收集器已初始化
+2026-10-05 11:31:29.474 | INFO | __main__:_db_backup_loop:858 - 数据库自动备份任务已取消
+2026-10-05 11:31:56.423 | INFO | app.file_log_collector:setup_loguru_file_output:72 - 文件日志收集器已启动
+2026-10-05 11:31:56.425 | INFO | __main__:main:764 - 文件日志收集器已启动，开始收集实时日志
+2026-10-05 11:31:56.426 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT id, value FROM cookies
+2026-10-05 11:31:56.428 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT cookie_id, keyword, reply FROM keywords
+2026-10-05 11:31:56.430 | INFO | app.cookie_manager:_load_from_db:42 - 从数据库加载了 0 个Cookie、0 组关键字、0 个状态记录和 0 个自动确认设置
+2026-10-05 11:31:56.454 | INFO | __main__:_start_api_server:714 - 启动Web服务器: http://0.0.0.0:8080
+2026-10-05 11:31:56.462 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_enabled']
+2026-10-05 11:31:56.465 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_interval']
+2026-10-05 11:31:56.467 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_keep']
+2026-10-05 11:31:56.602 | INFO | utils.db_backup:create_backup:79 - 数据库备份完成: data\xianyu_data_backup_20261005_113156.db (0.3 MB)
+2026-10-05 11:31:59.820 | INFO | utils.xianyu_utils:<module>:25 - 可用的JavaScript运行时: <module 'execjs.runtime_names' from 'C:\\Users\\dfsy\\AppData\\Roaming\\Python\\Python314\\site-packages\\execjs\\runtime_names.py'>
+2026-10-05 11:31:59.820 | INFO | utils.xianyu_utils:<module>:29 - 当前JavaScript运行时: Node.js (V8)
+2026-10-05 11:31:59.821 | INFO | utils.xianyu_utils:<module>:32 - JavaScript文件加载成功
+2026-10-05 11:31:59.824 | INFO | utils.image_utils:_ensure_upload_dir:30 - 图片上传目录已准备: static/uploads/images
+2026-10-05 11:31:59.892 | INFO | app.reply_server:<module>:333 - ✅ 已注册刮刮乐远程控制路由: /api/captcha
+2026-10-05 11:31:59.903 | INFO | app.reply_server:<module>:338 - 已注册发货拦截规则路由
+2026-10-05 11:31:59.903 | INFO | app.reply_server:<module>:345 - Web服务器启动，文件日志收集器已初始化
+2026-10-06 17:03:18.425 | INFO | app.file_log_collector:setup_loguru_file_output:72 - 文件日志收集器已启动
+2026-10-06 17:03:18.428 | INFO | __main__:main:764 - 文件日志收集器已启动，开始收集实时日志
+2026-10-06 17:03:18.428 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT id, value FROM cookies
+2026-10-06 17:03:18.429 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT cookie_id, keyword, reply FROM keywords
+2026-10-06 17:03:18.430 | INFO | app.cookie_manager:_load_from_db:42 - 从数据库加载了 0 个Cookie、0 组关键字、0 个状态记录和 0 个自动确认设置
+2026-10-06 17:03:18.431 | INFO | __main__:_start_api_server:714 - 启动Web服务器: http://0.0.0.0:8080
+2026-10-06 17:03:18.495 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_enabled']
+2026-10-06 17:03:18.496 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_interval']
+2026-10-06 17:03:18.496 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['db_backup_keep']
+2026-10-06 17:03:18.573 | INFO | utils.db_backup:create_backup:79 - 数据库备份完成: data\xianyu_data_backup_20261006_170318.db (0.3 MB)
+2026-10-06 17:03:22.064 | INFO | utils.xianyu_utils:<module>:25 - 可用的JavaScript运行时: <module 'execjs.runtime_names' from 'C:\\Users\\dfsy\\AppData\\Roaming\\Python\\Python314\\site-packages\\execjs\\runtime_names.py'>
+2026-10-06 17:03:22.065 | INFO | utils.xianyu_utils:<module>:29 - 当前JavaScript运行时: Node.js (V8)
+2026-10-06 17:03:22.081 | INFO | utils.xianyu_utils:<module>:32 - JavaScript文件加载成功
+2026-10-06 17:03:22.085 | INFO | utils.image_utils:_ensure_upload_dir:30 - 图片上传目录已准备: static/uploads/images
+2026-10-06 17:03:22.170 | INFO | app.reply_server:<module>:333 - ✅ 已注册刮刮乐远程控制路由: /api/captcha
+2026-10-06 17:03:22.180 | INFO | app.reply_server:<module>:338 - 已注册发货拦截规则路由
+2026-10-06 17:03:22.181 | INFO | app.reply_server:<module>:345 - Web服务器启动，文件日志收集器已初始化
+2026-10-06 17:03:41.127 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /
+2026-10-06 17:03:41.169 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET / - 200 (0.042s)
+2026-10-06 17:03:41.224 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /static/assets/index-D9AGdYpe.js
+2026-10-06 17:03:41.226 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /static/assets/index-B5RKs8Lj.css
+2026-10-06 17:03:41.311 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /static/assets/index-B5RKs8Lj.css - 200 (0.085s)
+2026-10-06 17:03:41.313 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /static/assets/index-D9AGdYpe.js - 200 (0.089s)
+2026-10-06 17:03:41.398 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /system-settings/public
+2026-10-06 17:03:41.401 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT key, value FROM system_settings
+2026-10-06 17:03:41.403 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /system-settings/public - 200 (0.005s)
+2026-10-06 17:03:41.409 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /static/favicon.svg
+2026-10-06 17:03:41.413 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /static/favicon.svg - 200 (0.004s)
+2026-10-06 17:04:34.153 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: POST /send-verification-code
+2026-10-06 17:04:34.216 | INFO | app.db_manager:save_verification_code:3728 - 保存验证码成功: sb20120905l@outlook.com (register)
+2026-10-06 17:04:34.216 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_server']
+2026-10-06 17:04:34.217 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_port']
+2026-10-06 17:04:34.217 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_user']
+2026-10-06 17:04:34.218 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_password']
+2026-10-06 17:04:34.218 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_from']
+2026-10-06 17:04:34.218 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_use_tls']
+2026-10-06 17:04:34.218 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['smtp_use_ssl']
+2026-10-06 17:04:34.219 | WARNING | app.db_manager:send_verification_email:3816 - 未配置 SMTP，无法发送验证码邮件: sb20120905l@outlook.com。请在「系统设置 → 邮件服务」中配置，或关闭「注册邮箱验证」。
+2026-10-06 17:04:34.220 | INFO | app.reply_server:log_requests:357 - ✅ API响应: POST /send-verification-code - 200 (0.066s)
+2026-10-06 17:04:39.700 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: POST /register
+2026-10-06 17:04:39.704 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['registration_enabled']
+2026-10-06 17:04:39.705 | INFO | app.reply_server:register:1052 - 【dfsy】尝试注册，邮箱: sb20120905l@outlook.com
+2026-10-06 17:04:39.706 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['email_verification_enabled']
+2026-10-06 17:04:39.706 | WARNING | app.db_manager:verify_email_code:3759 - 验证码验证失败: sb20120905l@outlook.com - 1111 (register)
+2026-10-06 17:04:39.707 | WARNING | app.reply_server:register:1064 - 【dfsy】注册失败: 验证码错误或已过期
+2026-10-06 17:04:39.707 | INFO | app.reply_server:log_requests:357 - ✅ API响应: POST /register - 200 (0.007s)
+2026-10-06 17:04:40.424 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: POST /register
+2026-10-06 17:04:40.425 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['registration_enabled']
+2026-10-06 17:04:40.425 | INFO | app.reply_server:register:1052 - 【dfsy】尝试注册，邮箱: sb20120905l@outlook.com
+2026-10-06 17:04:40.425 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['email_verification_enabled']
+2026-10-06 17:04:40.425 | WARNING | app.db_manager:verify_email_code:3759 - 验证码验证失败: sb20120905l@outlook.com - 1111 (register)
+2026-10-06 17:04:40.426 | WARNING | app.reply_server:register:1064 - 【dfsy】注册失败: 验证码错误或已过期
+2026-10-06 17:04:40.426 | INFO | app.reply_server:log_requests:357 - ✅ API响应: POST /register - 200 (0.003s)
+2026-10-06 17:04:40.666 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: POST /register
+2026-10-06 17:04:40.667 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['registration_enabled']
+2026-10-06 17:04:40.668 | INFO | app.reply_server:register:1052 - 【dfsy】尝试注册，邮箱: sb20120905l@outlook.com
+2026-10-06 17:04:40.672 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['email_verification_enabled']
+2026-10-06 17:04:40.674 | WARNING | app.db_manager:verify_email_code:3759 - 验证码验证失败: sb20120905l@outlook.com - 1111 (register)
+2026-10-06 17:04:40.674 | WARNING | app.reply_server:register:1064 - 【dfsy】注册失败: 验证码错误或已过期
+2026-10-06 17:04:40.675 | INFO | app.reply_server:log_requests:357 - ✅ API响应: POST /register - 200 (0.009s)
+2026-10-06 17:04:40.860 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: POST /register
+2026-10-06 17:04:40.862 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['registration_enabled']
+2026-10-06 17:04:40.863 | INFO | app.reply_server:register:1052 - 【dfsy】尝试注册，邮箱: sb20120905l@outlook.com
+2026-10-06 17:04:40.863 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT value FROM system_settings WHERE key = ? | 参数: ['email_verification_enabled']
+2026-10-06 17:04:40.863 | WARNING | app.db_manager:verify_email_code:3759 - 验证码验证失败: sb20120905l@outlook.com - 1111 (register)
+2026-10-06 17:04:40.864 | WARNING | app.reply_server:register:1064 - 【dfsy】注册失败: 验证码错误或已过期
+2026-10-06 17:04:40.864 | INFO | app.reply_server:log_requests:357 - ✅ API响应: POST /register - 200 (0.004s)
+2026-10-06 17:05:39.383 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /
+2026-10-06 17:05:39.385 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET / - 200 (0.002s)
+2026-10-06 17:05:39.430 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /static/assets/index-D9AGdYpe.js
+2026-10-06 17:05:39.432 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /static/assets/index-B5RKs8Lj.css
+2026-10-06 17:05:39.434 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /static/assets/index-D9AGdYpe.js - 304 (0.004s)
+2026-10-06 17:05:39.435 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /static/assets/index-B5RKs8Lj.css - 304 (0.004s)
+2026-10-06 17:05:39.469 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /system-settings/public
+2026-10-06 17:05:39.477 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT key, value FROM system_settings
+2026-10-06 17:05:39.478 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /system-settings/public - 200 (0.009s)
+2026-10-06 17:05:40.098 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /
+2026-10-06 17:05:40.100 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET / - 200 (0.002s)
+2026-10-06 17:05:40.153 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: GET /system-settings/public
+2026-10-06 17:05:40.157 | INFO | app.db_manager:_log_sql:1740 - SQL EXECUTE: SELECT key, value FROM system_settings
+2026-10-06 17:05:40.160 | INFO | app.reply_server:log_requests:357 - ✅ API响应: GET /system-settings/public - 200 (0.007s)
+2026-10-06 17:06:30.842 | INFO | app.reply_server:log_requests:352 - 🌐 API请求: POST /login
+2026-10-06 17:06:30.846 | INFO | app.reply_server:login:509 - 【admin】尝试用户名登录
+2026-10-06 17:06:30.847 | WARNING | app.reply_server:login:539 - 【admin】登录失败：用户名或密码错误
+2026-10-06 17:06:30.850 | INFO | app.reply_server:log_requests:357 - ✅ API响应: POST /login - 200 (0.007s)
+2026-10-06 17:09:32.456 | INFO | __main__:_db_backup_loop:858 - 数据库自动备份任务已取消

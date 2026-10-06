@@ -1,0 +1,34 @@
+# Shell scripts use Unix line endings.
+*.sh text eol=lf
+entrypoint.sh text eol=lf
+
+# Windows batch files use Windows line endings.
+*.bat text eol=crlf
+
+# Source and configuration files use Unix line endings.
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.conf text eol=lf
+
+# Documentation uses Unix line endings.
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary assets are not normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# 不计入 GitHub 首页的语言占比。
+# tests/ 是回归测试，前端 static/assets 是构建产物 —— 两者都不代表项目本身的
+# 技术构成，混进语言条会让占比失真。linguist-vendored 只影响统计展示，
+# 文件照常参与版本管理和 CI。
+tests/** linguist-vendored
+static/assets/** linguist-vendored
